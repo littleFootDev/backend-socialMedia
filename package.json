@@ -1,0 +1,19 @@
+{
+  "name": "backend-socialmedia",
+  "version": "0.0.1",
+  "description": "back end d'une aplication social en collaboratif",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "backpack"
+  },
+  "keywords": [
+    "back-end",
+    "nodejs",
+    "MERN"
+  ],
+  "author": "littlefootdev",
+  "license": "MIT",
+  "dependencies": {
+    "backpack-core": "^0.8.4"
+  }
+}
