@@ -8,6 +8,7 @@ dotenv.config();
 
 const port = process.env.PORT;
 import postRouter from './routes/postRoute';
+app.use(express.urlencoded({extended: true}));
 app.get('/', (req, res) => {
     res.send("bienvenue sur notre API!")
 })
